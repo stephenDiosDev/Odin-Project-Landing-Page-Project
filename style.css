@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
+    background-color: white;
 }
 
 * {
@@ -126,4 +127,34 @@ a {
     height: 150px;
     border-radius: 10%;
     border: 4px solid #3882f6;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.main-quote {
+    font-size: 36px;
+    font-weight: normal;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 0;
+    width: 60%;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    align-self: flex-end;
+    padding: 12px;
+    padding-top: 0;
+    margin-top: 0;
 }
